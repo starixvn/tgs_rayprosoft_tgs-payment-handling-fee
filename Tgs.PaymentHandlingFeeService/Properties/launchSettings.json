@@ -1,13 +1,27 @@
-﻿{
-  "profiles": {
-    "Tgs.PaymentHandlingFeeService": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:7201;http://+:5201",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    }
-  }
+{
+	"profiles": {
+		"Tgs.PaymentHandlingFeeService": {
+			"commandName": "Project",
+			"launchBrowser": true,
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development",
+				"OTEL_SERVICE_NAME": "Payment-Handling-Fee(local)",
+				"NODE_IP": "otel.rpgp.cc"
+			},
+			"applicationUrl": "https://localhost:7201;http://+:5201",
+			"dotnetRunMessages": true
+		},
+		"Docker": {
+			"commandName": "Docker",
+			"launchBrowser": true,
+			"launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+			"publishAllPorts": true,
+			"useSSL": true,
+			"environmentVariables": {
+				"ASPNETCORE_ENVIRONMENT": "Development",
+				"OTEL_SERVICE_NAME": "Payment-Handling-Fee(local)",
+				"NODE_IP": "otel.rpgp.cc"
+			}
+		}
+	}
 }
