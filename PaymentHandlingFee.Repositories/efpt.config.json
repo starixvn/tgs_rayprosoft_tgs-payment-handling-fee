@@ -1,47 +1,47 @@
 ﻿{
-   "CodeGenerationMode": 2,
-   "ContextClassName": "TgsContext",
-   "ContextNamespace": "Entities",
-   "DefaultDacpacSchema": null,
-   "FilterSchemas": true,
-   "IncludeConnectionString": false,
-   "ModelNamespace": "Entities",
-   "OutputContextPath": "Entities",
-   "OutputPath": "Entities\/Model",
-   "ProjectRootNamespace": "Tgs.Payment.HandlingFee.Repositories",
-   "Schemas": [
-      {
-         "Name": "dbo"
-      }
-   ],
-   "SelectedHandlebarsLanguage": 0,
-   "SelectedToBeGenerated": 0,
-   "Tables": [
-      {
-         "Name": "dbo.brands",
-         "ObjectType": 0
-      },
-      {
-         "Name": "dbo.payment_handling_fees",
-         "ObjectType": 0
-      }
-   ],
-   "UiHint": "tgs-local",
-   "UseBoolPropertiesWithoutDefaultSql": false,
-   "UseDatabaseNames": false,
-   "UseDbContextSplitting": true,
-   "UseFluentApiOnly": true,
-   "UseHandleBars": false,
-   "UseHierarchyId": false,
-   "UseInflector": true,
-   "UseLegacyPluralizer": false,
-   "UseManyToManyEntity": true,
-   "UseNoConstructor": false,
-   "UseNoDefaultConstructor": true,
-   "UseNoNavigations": false,
-   "UseNoObjectFilter": false,
-   "UseNodaTime": false,
-   "UseNullableReferences": true,
-   "UseSchemaFolders": false,
-   "UseSpatial": false
+	"CodeGenerationMode": 2,
+	"ContextClassName": "TgsContext",
+	"ContextNamespace": "Entities",
+	"DefaultDacpacSchema": null,
+	"FilterSchemas": true,
+	"IncludeConnectionString": false,
+	"ModelNamespace": "Entities",
+	"OutputContextPath": "Entities",
+	"OutputPath": "Entities\/Model",
+	"ProjectRootNamespace": "Tgs.Payment.HandlingFee.Repositories",
+	"Schemas": [
+		{
+			"Name": "dbo"
+		}
+	],
+	"SelectedHandlebarsLanguage": 0,
+	"SelectedToBeGenerated": 0,
+	"Tables": [
+		{
+			"Name": "dbo.brands",
+			"ObjectType": 0
+		},
+		{
+			"Name": "dbo.payment_handling_fees",
+			"ObjectType": 0
+		}
+	],
+	"UiHint": "tgs-local",
+	"UseBoolPropertiesWithoutDefaultSql": false,
+	"UseDatabaseNames": false,
+	"UseDbContextSplitting": true,
+	"UseFluentApiOnly": true,
+	"UseHandleBars": false,
+	"UseHierarchyId": false,
+	"UseInflector": true,
+	"UseLegacyPluralizer": false,
+	"UseManyToManyEntity": true,
+	"UseNoConstructor": false,
+	"UseNoDefaultConstructor": true,
+	"UseNoNavigations": false,
+	"UseNoObjectFilter": false,
+	"UseNodaTime": false,
+	"UseNullableReferences": true,
+	"UseSchemaFolders": false,
+	"UseSpatial": false
 }

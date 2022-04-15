@@ -2,6 +2,6 @@
 
 public enum PaymentType
 {
-	Deposit,
-	Withdraw
+    Deposit,
+    Withdraw
 }

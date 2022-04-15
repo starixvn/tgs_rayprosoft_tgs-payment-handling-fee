@@ -7,11 +7,11 @@ namespace Microsoft.Extensions.DependencyInjection;
 
 public static class ServiceCollectionExtensions
 {
-	public static IServiceCollection AddPaymentHandlingFeeRepositories(
-		this IServiceCollection services,
-		Action<DbContextOptionsBuilder> dbContextOptionsAction)
-		=> services
-			.AddDbContext<TgsContext>(dbContextOptionsAction)
-			.AddSerialNumberGenerator()
-			.AddTransient<IPaymentRepository, PaymentRepository>();
+    public static IServiceCollection AddPaymentHandlingFeeRepositories(
+        this IServiceCollection services,
+        Action<DbContextOptionsBuilder> dbContextOptionsAction)
+        => services
+            .AddDbContext<TgsContext>(dbContextOptionsAction)
+            .AddSerialNumberGenerator()
+            .AddTransient<IPaymentRepository, PaymentRepository>();
 }

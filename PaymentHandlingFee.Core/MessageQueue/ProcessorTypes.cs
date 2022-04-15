@@ -2,6 +2,6 @@
 
 public static class ProcessorTypes
 {
-	public static readonly Type DepositStatusChangeHandlerType = typeof(DepositStatusChangeHandler);
-	public static readonly Type WithdrawStatusChangeHandlerType = typeof(WithdrawStatusChangeHandler);
+    public static readonly Type DepositStatusChangeHandlerType = typeof(DepositStatusChangeHandler);
+    public static readonly Type WithdrawStatusChangeHandlerType = typeof(WithdrawStatusChangeHandler);
 }

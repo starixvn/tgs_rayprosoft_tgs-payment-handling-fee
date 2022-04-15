@@ -2,5 +2,5 @@
 
 public interface IPaymentRepository
 {
-	ValueTask AddPaymentHandlingFeeRecordAsync(PaymentHandlingFeeCreateInfo feeCreateInfo, CancellationToken cancellationToken);
+    ValueTask AddPaymentHandlingFeeRecordAsync(PaymentHandlingFeeCreateInfo feeCreateInfo, CancellationToken cancellationToken);
 }
